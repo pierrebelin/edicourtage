@@ -1,5 +1,4 @@
 <?php
-
 namespace PierreBelin\EDICourtage\Request;
 
 use UnexpectedValueException;

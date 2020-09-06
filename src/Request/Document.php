@@ -17,7 +17,7 @@ class Document extends Base
     public bool $toSend;
     public bool $toArchive;
     public bool $attachment;
-    public DocumentAttachmentType $source;
+    public string $source;
     public string $name;
     public int $size;
 }
