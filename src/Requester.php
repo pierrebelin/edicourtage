@@ -27,7 +27,7 @@ class Requester
 			'Content-Type: multipart/form-data'
         ]);
 
-        $cFile = curl_file_create($fullPathFile, 'pdf', 'currentTransactionFile.pdf');
+        $cFile = curl_file_create($fullPathFile, 'pdf', 'filename.pdf');
         curl_setopt($curl, CURLOPT_POSTFIELDS, [
             'body' => json_encode($bodyContent, true),
             'COURT_1' => $cFile

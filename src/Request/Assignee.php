@@ -10,5 +10,5 @@ class Assignee extends Base
     public string $lastName;
     public string $phone;
     public string $email;
-    public bool $presential = false;
+    public bool $presential;
 }
